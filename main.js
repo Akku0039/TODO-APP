@@ -51,7 +51,7 @@ let showTasks = () => {
         console.log(task);
         return ( taskContainer.innerHTML += `  <div id=${idx}>
         <span class="fw-bold">${task.title}</span>
-        <span class="small text-secondary">${tasks.date}</span>
+        <span class="small text-secondary">${task.date}</span>
         <p>${task.description}</p>
         <span class="options">
            
